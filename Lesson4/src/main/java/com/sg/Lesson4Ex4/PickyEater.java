@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.sg.lesson4;
+package com.sg.Lesson4Ex4;
 
 import java.util.Scanner;
 

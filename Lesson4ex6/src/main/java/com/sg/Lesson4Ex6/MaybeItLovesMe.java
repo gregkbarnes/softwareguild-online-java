@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.sg.lesson6;
+package com.sg.Lesson4Ex6;
 
 import java.util.Random;
 
