@@ -11,16 +11,13 @@ package com.sg.funwithmethods;
  */
 public class MethodFun {
     public static void main(String[] args) {
-        int num = 25;
-        int i = 16;
+        int num = add2Nums(1, 2);
+        System.out.println(num);
         
-        silly(5 + 4);
-        silly(num);
-        silly(i);
-        
+        System.out.println(add2Nums(3, 4));
     }
-    
-    public static void silly(int i) {
-        System.out.println("the value is: " + i);
+
+    public static int add2Nums(int a, int b) {
+        return (a+b);
     }
 }
