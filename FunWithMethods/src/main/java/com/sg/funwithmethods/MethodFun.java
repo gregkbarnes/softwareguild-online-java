@@ -12,6 +12,8 @@ package com.sg.funwithmethods;
 public class MethodFun {
     public static void main(String[] args) {
         doIt();
+        doIt();
+        doIt();
     }
     
     public static void doIt() {
