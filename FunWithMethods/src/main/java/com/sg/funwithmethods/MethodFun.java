@@ -11,7 +11,8 @@ package com.sg.funwithmethods;
  */
 public class MethodFun {
     public static void main(String[] args) {
-        System.out.println(get5());
+        int num = get5();
+        System.out.println(num);
     }
     
     public static int get5() {
