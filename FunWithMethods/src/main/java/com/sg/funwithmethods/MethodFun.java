@@ -14,7 +14,7 @@ public class MethodFun {
         int num = 25;
         int i = 16;
         
-        silly(5);
+        silly(5 + 4);
         silly(num);
         silly(i);
         
