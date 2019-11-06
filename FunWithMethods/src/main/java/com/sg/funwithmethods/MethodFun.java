@@ -11,12 +11,16 @@ package com.sg.funwithmethods;
  */
 public class MethodFun {
     public static void main(String[] args) {
-        int num = get5();
-        System.out.println(num);
-        System.out.println(get5());
+        int num = 25;
+        int i = 16;
+        
+        silly(5);
+        silly(num);
+        silly(i);
+        
     }
     
-    public static int get5() {
-        return 5;
+    public static void silly(int i) {
+        System.out.println("the value is: " + i);
     }
 }
