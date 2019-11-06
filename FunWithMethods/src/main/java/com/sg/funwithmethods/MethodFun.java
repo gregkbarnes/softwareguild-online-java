@@ -5,19 +5,27 @@
  */
 package com.sg.funwithmethods;
 
+import java.util.Scanner;
+
 /**
  *
  * @author GKB
  */
 public class MethodFun {
-    public static void main(String[] args) {
-        int num = add2Nums(1, 2);
-        System.out.println(num);
-        
-        System.out.println(add2Nums(3, 4));
+    public static void main(String[] args) {        
+        System.out.println(addNums(3));
     }
 
-    public static int add2Nums(int a, int b) {
-        return (a+b);
+    public static float addNums(int x) {
+        float num = 0;
+        Scanner sc = new Scanner(System.in);
+        
+        for (int i=0;i<x;i++) {
+            System.out.println("input number: ");
+            String userInput = sc.nextLine();
+            num += Float.parseFloat(userInput);
+        }
+            
+        return (num);
     }
 }
